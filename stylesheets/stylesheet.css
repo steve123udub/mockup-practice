@@ -1,0 +1,25 @@
+header {
+  background-color: black;
+}
+header h1 {
+  color: white;
+}
+body {
+  background-color: gray;
+}
+figure {
+  /*  overflow: auto;*/
+  float: left;
+  width: 10rem;
+}
+figure img {
+  width: 10rem;
+}
+footer {
+  background-color: black;
+  border: none;
+  clear: both;
+}
+footer p {
+  color: white;
+}
