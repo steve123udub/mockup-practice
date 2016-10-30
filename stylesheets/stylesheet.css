@@ -3,9 +3,15 @@ header {
 }
 header h1 {
   color: white;
+  padding:5rem 0 0 1rem;
 }
 body {
   background-color: gray;
+}
+.call-to-action {
+  float: right;
+  max-width: 20rem;
+  height: rem;
 }
 figure {
   /*  overflow: auto;*/
@@ -22,4 +28,15 @@ footer {
 }
 footer p {
   color: white;
+}
+nav {
+  clear: both;
+}
+.leftHandSide {
+  float: left;
+  width: 50%;
+}
+.rightHandSide {
+  float: right;
+  width: 50%;
 }
