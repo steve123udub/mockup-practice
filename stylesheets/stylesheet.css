@@ -14,6 +14,7 @@ header h2 {
 
 main {
 	line-height: 1.5rem;
+	padding-bottom: 2rem;
 }
 
 nav {
@@ -76,15 +77,22 @@ nav {
 
 .leftHandSide {
 	float: left;
-	width: 50%;
+	width: 65%;
 	padding-left: 1rem;
+	padding-bottom: 3rem;
 	height: 30rem;
+	
 }
 
-.aside {
-	float: right;
-	width: 50%;
-	/*	border is not working.  Why oh why? */
-	border: 20rem black solid;
+aside {
+	float: left;
+	width: 30%;
+	/*	border is not working.  Why oh why?   Border goes around entire width of screen*/
+	border: 1px black solid;
 	height: 30rem;
+	padding-bottom: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 2rem;
+	/*	This did not help with border*/
+	/*	overflow: hidden;*/
 }
