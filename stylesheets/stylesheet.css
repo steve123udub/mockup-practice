@@ -12,6 +12,10 @@ header h2 {
 	padding: 1rem 0 0 1rem;
 }
 
+main {
+	line-height: 1.5rem;
+}
+
 nav {
 	background-color: gray;
 	height: 2rem;
@@ -24,7 +28,6 @@ nav a {
 
 body {
 	background-color: white;
-
 }
 
 .call-to-action {
@@ -36,6 +39,14 @@ body {
 	padding-right: 1rem;
 }
 
+.motto {
+	padding-top: 2rem;
+	text-align: center;
+}
+
+.center-text {
+	text-align: center;
+}
 
 figure img {
 	width: 10rem;
@@ -45,10 +56,18 @@ footer {
 	background-color: black;
 	border: none;
 	clear: both;
+	padding-top: 2rem;
 }
 
 footer p {
 	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 1rem;
+}
+
+footer a {
+	color: firebrick;
 }
 
 nav {
@@ -60,14 +79,12 @@ nav {
 	width: 50%;
 	padding-left: 1rem;
 	height: 30rem;
-		line-height: 1.5rem;
 }
 
 .aside {
-	clear:left;
 	float: right;
 	width: 50%;
-	border-style: solid;
-	border-co;lor: black;
+	/*	border is not working.  Why oh why? */
+	border: 20rem black solid;
 	height: 30rem;
 }
