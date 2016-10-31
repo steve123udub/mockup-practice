@@ -1,98 +1,78 @@
-header {
-	background-color: black;
-}
-
-header h1 {
-	color: white;
-	padding: 5rem 0 0 1rem;
-}
-
-header h2 {
-	color: white;
-	padding: 1rem 0 0 1rem;
-}
-
-main {
-	line-height: 1.5rem;
-	padding-bottom: 2rem;
-}
-
-nav {
-	background-color: gray;
-	height: 2rem;
-	padding: 1rem 0 0 1rem;
-}
-
-nav a {
-	padding: 1rem 1rem 1rem 1rem;
-}
-
-body {
-	background-color: white;
-}
-
-.call-to-action {
-	color: firebrick;
-	float: right;
-	max-width: 20rem;
-	height: 3rem;
-	padding-top: 1rem;
-	padding-right: 1rem;
-}
-
-.motto {
-	padding-top: 2rem;
-	text-align: center;
-}
-
-.center-text {
-	text-align: center;
-}
-
-figure img {
-	width: 10rem;
-}
-
-footer {
-	background-color: black;
-	border: none;
-	clear: both;
-	padding-top: 2rem;
-}
-
-footer p {
-	color: white;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: 1rem;
-}
-
-footer a {
-	color: firebrick;
-}
-
-nav {
-	clear: both;
-}
-
-.leftHandSide {
-	float: left;
-	width: 65%;
-	padding-left: 1rem;
-	padding-bottom: 3rem;
-	height: 30rem;
-	
-}
-
 aside {
-	float: left;
-	width: 30%;
-	/*	border is not working.  Why oh why?   Border goes around entire width of screen*/
-	border: 1px black solid;
-	height: 30rem;
-	padding-bottom: 3rem;
-	margin-bottom: 3rem;
-	margin-left: 2rem;
-	/*	This did not help with border*/
-	/*	overflow: hidden;*/
+  float: left;
+  width: 30%;
+  border: 1px black solid;
+  max-height: 30rem;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+header {
+  background-color: black;
+}
+header h1 {
+  color: white;
+  padding: 5rem 0 0 1rem;
+}
+header h2 {
+  color: white;
+  padding: 1rem 0 0 1rem;
+}
+main {
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+nav {
+  background-color: gray;
+  height: 2rem;
+  padding: 1rem 0 0 1rem;
+}
+nav a {
+  padding: 1rem 1rem 1rem 1rem;
+}
+body {
+  background-color: white;
+}
+figure img {
+  width: 10rem;
+}
+footer {
+  background-color: black;
+  border: none;
+  clear: both;
+  padding-top: 2rem;
+}
+footer p {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1rem;
+}
+footer a {
+  color: firebrick;
+}
+nav {
+  clear: both;
+}
+.call-to-action {
+  color: firebrick;
+  float: right;
+  max-width: 20rem;
+  height: 3rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.motto {
+  padding-top: 2rem;
+  text-align: center;
+}
+.center-text {
+  text-align: center;
+}
+.leftHandSide {
+  float: left;
+  width: 65%;
+  padding-left: 1rem;
+  padding-bottom: 3rem;
+  max-height: 30rem;
 }
